@@ -1,5 +1,5 @@
 # Versioning System
-DU_BASE_VERSION = v12.0
+DU_BASE_VERSION = 8.1
 
 ifndef DU_BUILD_TYPE
     DU_BUILD_TYPE := UNOFFICIAL
@@ -18,7 +18,7 @@ endif
 
 # Set all versions
 DATE := $(shell date -u +%Y%m%d)
-DU_VERSION := $(TARGET_PRODUCT)-$(DU_BASE_VERSION)-$(DATE)-$(shell date -u +%H%M)-$(DU_BUILD_TYPE)
+DU_VERSION := $(TARGET_PRODUCT)-$(DU_BASE_VERSION)-$(DATE)-$(DU_BUILD_TYPE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     BUILD_DISPLAY_ID=$(BUILD_ID) \

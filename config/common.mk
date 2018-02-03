@@ -70,5 +70,8 @@ include vendor/du/config/branding.mk
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
 
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
+
 # Google sounds
 include vendor/du/google/GoogleAudio.mk

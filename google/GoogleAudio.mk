@@ -138,6 +138,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ringtones/Zen.ogg:system/media/audio/ringtones/Zen.ogg \
     $(LOCAL_PATH)/ringtones/Zen_too.ogg:system/media/audio/ringtones/Zen_too.ogg
 
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_GENERIC_PROPERTIES += \
    ro.config.ringtone=Zen_too.ogg \
    ro.config.notification_sound=Chime.ogg

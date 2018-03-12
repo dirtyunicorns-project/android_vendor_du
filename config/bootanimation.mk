@@ -28,3 +28,8 @@ ifeq ($(filter dragon,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/media/1800x2560.zip:system/media/bootanimation.zip
 endif
+
+ifeq ($(filter gemini,$(TARGET_PRODUCT)),)
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/common/media/1080x1920.zip:system/media/bootanimation.zip
+endif

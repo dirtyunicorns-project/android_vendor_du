@@ -1,7 +1,6 @@
 # Packages
 PRODUCT_PACKAGES += \
-    Turbo \
-    Dialer
+    Turbo
 
 # Overlays
 PRODUCT_PACKAGES += \

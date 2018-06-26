@@ -8,6 +8,7 @@ PRODUCT_GENERIC_PROPERTIES += \
     ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
 endif
 
+# General additions
 PRODUCT_GENERIC_PROPERTIES += \
     keyguard.no_require_sim=true \
     dalvik.vm.debug.alloc=0 \
@@ -21,6 +22,7 @@ PRODUCT_GENERIC_PROPERTIES += \
     persist.sys.disable_rescue=true \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0 \
+    ro.setupwizard.rotation_locked=true \
     ro.build.selinux=1
 
 PRODUCT_COPY_FILES += \
